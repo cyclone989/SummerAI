@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>붓꽃(Iris) 예측 모델</h1>
+    <form action='check' method='post'>
+        <table width="70%" border="1">
+            <tr>
+                <td>꽃받침의 길이</td>
+                <td><input type='text' name='sepal_length'></td>
+            </tr>
+            <tr>
+                <td>꽃받침의 너비</td>
+                <td><input type='text' name="sepal_width"></td>
+            </tr>
+            <tr>
+                <td>꽃잎의 길이</td>
+                <td><input type='text' name='petal_length'></td>
+            </tr>
+            <tr>
+                <td>꽃잎의 너비</td>
+                <td><input type='text' name="petal_width"></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="예측">
+                    <input type="reset" value="취소">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
